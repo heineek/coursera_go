@@ -10,7 +10,7 @@ type Person struct {
 
 type Account struct {
 	Id int
-	// Name    string
+	Name    string
 	Cleaner func(string) string
 	Owner   Person
 	Person
@@ -20,7 +20,7 @@ func main() {
 	// полное объявление структуры
 	var acc Account = Account{
 		Id: 1,
-		// Name: "rvasily",
+		Name: "rvasily",
 		Person: Person{
 			Name:    "Василий",
 			Address: "Москва",

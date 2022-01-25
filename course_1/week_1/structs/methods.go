@@ -42,7 +42,7 @@ func main() {
 	pers := new(Person)
 	pers.SetName("Vasily Romanov")
 	// (&pers).SetName("Vasily Romanov")
-	// fmt.Printf("updated person: %#v\n", pers)
+	fmt.Printf("updated person: %#v\n", pers)
 
 	var acc Account = Account{
 		Id:   1,
@@ -54,9 +54,9 @@ func main() {
 	}
 
 	acc.SetName("romanov.vasily")
-	acc.Person.SetName("Test")
+	// acc.Person.SetName("Test")
 
-	// fmt.Printf("%#v \n", acc)
+	fmt.Printf("%#v \n", acc)
 
 	sl := MySlice([]int{1, 2})
 	sl.Add(5)
