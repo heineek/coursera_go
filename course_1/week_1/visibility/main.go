@@ -1,7 +1,7 @@
 package main
 
 import (
-	"coursera/visibility/person"
+	"coursera/course_1/week_1/visibility/person"
 	"fmt"
 )
 
